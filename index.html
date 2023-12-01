@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <title>Fezeka Nzama</title>
+  </head>
+  <body>
+    <!-- Header and navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">Fezeka Nzama</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#my_home" class="nav-link">Hello</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my_projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my_blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my_about" class="nav-link">About</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!--Dynamic Hero -->
+    <div class="hero">
+      <h4>FEZ IS A...</h4>
+      <h1 class="first-text"></h1>
+      <h1 class="second-text"></h1>
+      <button onclick = "window.open('static/Fezeka Nzama Resume.pdf', '_blank'); return false;">My Resume</button>
+    </div>
+
+    <!--Hello-->
+    <div class="hello" id="my_home">
+      <div class="hello-col-1">
+        <img src="./static/About.jpeg" alt="Hi, I'm Fez"/>
+        <h1>Hello World,</h1>
+        <p>
+          My name is Fezeka Nzama and I’m a recent computer science grad, <br />
+          with a love for exploring new technologies, the environment and
+          writing.
+        </p>
+        <br>
+        <p>Check out my resume <a href="static/Fezeka Nzama Resume.pdf" target="_blank">here</a></p>
+      </div>
+      <div class="hello-col-2">
+        <div class="hello-goals">
+          <div class="hello-goals-image">
+            <img src="./static/hello/goal.png" alt="Goals Image">
+          </div>
+          <div class="hello-goals-text">
+            <h1>GOALS</h1>
+            <p>
+              I am passionate about all things human – in particular our
+              technology, our art and our relationships with our world and each
+              other. <br />
+              The career I am building leverages these three elements of humanness
+              to solve real issues and improve real lives.
+            </p>
+          </div>
+        </div>
+        <div class="hello-skillset-shine-container">
+          <div class="hello-skillset">
+            <img src="./static/hello/skillset.png" alt="Skillset Image"/>
+            <h1>SKILLSET</h1>
+            <p>
+              My computer science background has lent itself to proficiencies in
+              programming in Java, Python, HTML, CSS and Javascript. <br />
+              Additionally, I am a strong verbal and written communicator and I
+              thoroughly enjoy organising everything from my closet to a trip
+              abroad.
+            </p>
+          </div>
+          <div class="hello-shine">
+            <img src="./static/hello/shine.png" alt="Shine Image"/>
+            <h1>SHINE</h1>
+            <p>
+              I enjoy working with others and do best in environments where I can
+              exercise my curiosity, where questions are encouraged and the
+              culture lends itself to knowledge sharing and personal development.
+              <br />
+              I know I can learn and excel at anything, just give me half a
+              chance.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h4>HELLO WORLD</h4>
+    </div>
+
+    <!--Projects-->
+    <div class="projects" id="my_projects">
+      <div class="projects-container">
+        <div class="projects-row-1">
+          <div class="filler"></div>
+          <div class="project-cell-container">
+            <div class="project-cell">
+              <img class="project-image" src="static/project flip cards/website.png" alt="Portfolio Website Project">
+              <div class="project-overlay">
+                <div class="project-overlay-title">Portfolio Website</div>
+                <p class="project-overlay-description">
+                  The goal of this project was to create a portfolio website that felt reflective of me, in design, voice and content.
+                  This project took me 1 month of daily work to complete and served as a fun proving ground for me to explore and refine my web dev skills. 
+                </p>
+                <a href="" class="project-link">Github Link</a>
+              </div>
+            </div>
+            <div class="project-cell">
+              <img class="project-image" src="static/project flip cards/netsec.png" alt="Network Security Project">
+              <div class="project-overlay">
+                <div class="project-overlay-title">Network Security Chat App</div>
+                <p class="project-overlay-description">
+                  The goal of this project was to build a fully secure chat app using the Pretty Good Privacy cryptosystem that combines 
+                  shared key encryption, public-key encryption and certificates. This project was completed by myself and 3 other developers 
+                  for our Network and Internet Security Honors course and earned a grade of 87%. 
+                </p>
+                <a href="https://github.com/FezekaNzama/Network-and-Internet-Security-PGP-project" class="project-link">Github Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-row-2">
+          <div class="project-cell-container">
+            <div class="project-cell">
+              <div class="project-overlay">
+                <div class="project-overlay-title">Project 3</div>
+                <p class="project-overlay-description">Project Description</p>
+                <a href="" class="project-link">Github Link</a>
+              </div>
+            </div>
+            <div class="project-cell">
+              <div class="project-overlay">
+                <div class="project-overlay-title">Project 3</div>
+                <p class="project-overlay-description">Project Description</p>
+                <a href="" class="project-link">Github Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="filler"></div>
+        </div>
+      </div>
+      <h4>PROJECTS</h4>
+    </div>
+
+    <!--Blog-->
+    <div class="blog" id="my_blog">
+      <div class="blog-main-col">
+        <div class="blog-image" id="Blog1">
+          <img src="static/blog/Blog 1.png" alt="Airplane flying through the sky" >
+        </div>
+        <div class="blog-text">
+          <h2>Comp Sci Grad to Au Pair</h2>
+          <h3>Why my post-Grad international gap year is the best decision I ever made </h3>
+          <a href="https://fezekanzama.hashnode.dev/comp-sci-grad-to-au-pair-and-back" target="_blank">Read Here</a>
+        </div>
+      </div>
+      <div class="blog-extra-col">
+        <div class="blog-feature">
+          <div class="blog-image" id="Blog2">
+            <img src="static/blog/Blog 2.jpg" alt="Chalkboard" >
+          </div>
+          <div class="blog-text">
+            <h2>Web Design for non-Designers</h2>
+            <h3>The Portfolio Website Series</h3>
+            <a href="" target="_blank">Read Here</a>
+          </div>
+        </div>
+        <div class="blog-feature">
+          <div class="blog-image" id="Blog3">
+            <img src="static/blog/Blog 3.png" alt="Pencil crayons" >
+          </div>
+          <div class="blog-text">
+            <h2>"Life" as taught by Code</h2>
+            <h3>Life lessons I've learnt writing code</h3>
+            <a href="" target="_blank">Read Here</a>
+          </div>
+        </div>
+        <div class="blog-link">
+          <a href="https://fezekanzama.hashnode.dev/" target="_blank">Blog link</a>
+        </div>
+      </div>
+      <h4>BLOG</h4>
+    </div>
+
+    <!--About -->
+    <div class="about" id="my_about">
+    
+      <div class="about-item-container">
+
+        <div class="about-item">
+          <div class="about-title">
+            <h5>Education</h5>
+          </div>
+          <div class="about-content">
+            <p>
+              Fezeka Nzama earned her Bachelor of Business Science specialising in 
+              Computer Science from the University of Cape Town in March of 2022. 
+              During her time at UCT she was named on the Commerce Deans’ Merit List 
+              and invited to join the Golden Key Honor Society multiple times, whilst 
+              being an active member of the University community. She served on the 
+              Graca Machel Hall Deputy House Committee as Head Student, worked as a 
+              Graca Machel Hall Subwarden and Graca Machel Hall Student Front Desk 
+              Co-ordinator. Additionally, Fezeka played for the UCT Hockey team, and 
+              was on of the founders of StartUp Grind UCT, an entrepreneurship focused 
+              student society aimed at equipping and uplifting young student entrepreneurs 
+              with the motto “Make Friends, Not Contacts”.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-item">
+          <div class="about-title">
+            <h5>Work Experience</h5>
+          </div>
+          <div class="about-content">
+            <p>
+              Outside of working in student leadership, Fezeka spent summers working in retail 
+              as a shop attendant at a stationary shop (Ramsgate Stationers). Following that, 
+              Fezeka spent a month interning with a top 3 consulting firm, working as a visiting 
+              associate in a team with international consultants all over the world. That experience 
+              was one of immense growth, with Fezeka picking up skills in excel, and Tableau data 
+              visualisation whilst gaining insight into the hustle of corporate South Africa. 
+              Since then, Fezeka has spent two years, living, and traveling through the United 
+              States of America. Working as an au pair Fezeka has discovered new levels of patience 
+              and empathy within herself, whilst while making a plethora of her travel dreams come true. 
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="about-item">
+          <div class="about-title">
+            <h5>Hobbies & Interest</h5>
+          </div>
+          <div class="about-content">
+            <p>
+              Fezeka has a vast array of interests and hobbies. In July of 2023 Fezeka completed her first 
+              half marathon, an achievement she sees as a culmination of her love for being active and 
+              moving. In addition to running, Fezeka loves to hike, camp and be outdoors. Additionally, 
+              she enjoys watching sport, as a South African native, watching rugby, soccer and cricket 
+              have been mainstays of her life and community. When she isn’t breathing in fresh air, Fezeka 
+              enjoys reading, writing, and playing ukelele and singing. She is currently in enrolled in a 
+              Vocal Jazz class where she enjoys sharing in the creation of music with others who share the 
+              same love of music
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-item-container-small-screen">
+
+        <div class="about-education-small-screen">
+          <details>
+            <summary><h5 class="about-title-small-screen">Education</h5></summary>
+            <p>
+              Fezeka Nzama earned her Bachelor of Business Science specialising in 
+              Computer Science from the University of Cape Town in March of 2022. 
+              During her time at UCT she was named on the Commerce Deans’ Merit List 
+              and invited to join the Golden Key Honor Society multiple times, whilst 
+              being an active member of the University community. She served on the 
+              Graca Machel Hall Deputy House Committee as Head Student, worked as a 
+              Graca Machel Hall Subwarden and Graca Machel Hall Student Front Desk 
+              Co-ordinator. Additionally, Fezeka played for the UCT Hockey team, and 
+              was on of the founders of StartUp Grind UCT, an entrepreneurship focused 
+              student society aimed at equipping and uplifting young student entrepreneurs 
+              with the motto “Make Friends, Not Contacts”.
+            </p>
+          </details>
+        </div>
+
+        <div class="dot">
+          <h5>&#x2022;</h5>
+        </div>
+
+        <div class="about-work-experience-small-screen">
+          <details>
+            <summary><h5 class="about-title-small-screen">Work Experience</h5></summary>
+            <p>
+              Outside of working in student leadership, Fezeka spent summers working in retail 
+              as a shop attendant at a stationary shop (Ramsgate Stationers). Following that, 
+              Fezeka spent a month interning with a top 3 consulting firm, working as a visiting 
+              associate in a team with international consultants all over the world. That experience 
+              was one of immense growth, with Fezeka picking up skills in excel, and Tableau data 
+              visualisation whilst gaining insight into the hustle of corporate South Africa. 
+              Since then, Fezeka has spent two years, living, and traveling through the United 
+              States of America. Working as an au pair Fezeka has discovered new levels of patience 
+              and empathy within herself, whilst while making a plethora of her travel dreams come true. 
+            </p>
+          </details>
+        </div>
+
+        <div class="dot">
+          <h5>&#x2022;</h5>
+        </div>
+
+        <div class="about-interests-small-screen">
+          <details>
+            <summary><h5 class="about-title-small-screen">Hobbies & Interests</h5></summary>
+            <p>
+              Fezeka has a vast array of interests and hobbies. In July of 2023 Fezeka completed her first 
+              half marathon, an achievement she sees as a culmination of her love for being active and 
+              moving. In addition to running, Fezeka loves to hike, camp and be outdoors. Additionally, 
+              she enjoys watching sport, as a South African native, watching rugby, soccer and cricket 
+              have been mainstays of her life and community. When she isn’t breathing in fresh air, Fezeka 
+              enjoys reading, writing, and playing ukelele and singing. She is currently in enrolled in a 
+              Vocal Jazz class where she enjoys sharing in the creation of music with others who share the 
+              same love of music
+            </p>
+          </details>
+        </div>
+        
+      </div>
+
+      <h4>ABOUT ME</h4>
+
+    </div>
+   
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/fezekanzama" target="_blank">
+          <img src="static/logos/linkedin.png" alt="LinkedIn link" />
+        </a>
+        <a href="" target="_blank">
+          <img src="static/logos/hashnode.png" alt="Hashnode link" />
+        </a>
+        <a href="https://github.com/FezekaNzama" target="_blank">
+          <img src="static/logos/github.png" alt="Github link" />
+        </a>
+      </div>
+      <p class="copyright">&copy 2023 Fezeka Nzama. All rights reserved.</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
